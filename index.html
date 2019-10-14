@@ -1,8 +1,42 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<iframe src="https://www.google.com/maps/d/u/2/embed?mid=1KVKgsAsqUkHOzFKq7o-HLQg5f3CZIVHJ" width="640" height="480"></iframe>
-
-</body>
+  <head>
+    <title>TGIS 503 example</title>
+    <style>
+        body {
+            font-size: 100%;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            background-color: #544749;
+        }
+        h2 {
+          font-size: 2em;
+          color: #332C33;
+        }
+        #main {
+            max-width: 940px;
+            background-color: #FFF;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        iframe{
+          width: 49%;
+          height: 750px;
+          border: none;
+        }
+        #map1 {
+          float: left;
+        }
+        #map2 {
+          float: right;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+    <h2>Example of an embedded iframe</h2>
+    <iframe id="map1" src="https://www.google.com/maps/d/u/1/embed?mid=1KVKgsAsqUkHOzFKq7o-HLQg5f3CZIVHJ"></iframe>
+    <iframe id="map2" src="https://www.google.com/maps/d/u/1/embed?mid=18mtRpyQOF6TWCyaidK0nTlAudUP1k0KV"></iframe>
+  </div>
+  </body>
 </html>
